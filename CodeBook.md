@@ -7,14 +7,15 @@ The tidy data set (tall and skinny data set) which is an output of the run_analy
 ### The tidy data set - variables and their values description
 
 ### subjectID 
-*Description: Number of a subject/person wearing a smartphone and performing an activity.
-*Class: integer
-*Values: 1, 2, …, 30
+* Description: Number of a subject/person wearing a smartphone and performing an activity.
+* Class: integer
+* Values: 1, 2, …, 30
 
 ### activity 
-*Description: An activity performed by a subject/person.
-*Class: factor with 6 levels
-*Levels: 
+* Description: An activity performed by a subject/person.
+* Class: factor with 6 levels
+* Levels:
+ 
       LAYING
       SITTING
       STANDING
@@ -23,9 +24,10 @@ The tidy data set (tall and skinny data set) which is an output of the run_analy
       WALKING_DOWNSTAIRS
 
 ### variable
-*Description: Measured variable names only for the mean and standard deviation for each measurement in the original data. Note: They have character values which are converted into factor. 
-*Class: factor with 66 levels
-*Levels: 
+* Description: Measured variable names only for the mean and standard deviation for each measurement in the original data. Note: They have character values which are converted into factor. 
+* Class: factor with 66 levels
+* Levels: 
+
        tBodyAcc-mean()-X           
        tBodyAcc-mean()-Y           
        tBodyAcc-mean()-Z
@@ -94,9 +96,9 @@ The tidy data set (tall and skinny data set) which is an output of the run_analy
        fBodyBodyGyroJerkMag-std()
 
 ### value
-*Description: Average of each variable for each activity and each subject. 
-*Class: numeric
-*Values: e.g. 0.2216 -0.0405 -0.1132 -0.9281 -0.8368
+* Description: Average of each variable for each activity and each subject. 
+* Class: numeric
+* Values: e.g. 0.2216 -0.0405 -0.1132 -0.9281 -0.8368
  
 
 
